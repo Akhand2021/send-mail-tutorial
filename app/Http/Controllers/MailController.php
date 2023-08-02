@@ -16,7 +16,7 @@ class MailController extends Controller
             'body' => 'This is a demo email from Algocodersmind.'
         ];
 
-        Mail::to('jinugullu143@gmail.com')->send(new DemoEmail($details));
+        Mail::to('xyz123@gmail.com')->send(new DemoEmail($details));
 
         return "Email sent successfully!";
     }
